@@ -30,4 +30,6 @@ git log//日志 --pretty=oneline
 
 git relog //记录你的每一次命令
 
+git reset HEAD //返回版本库
+
 git checkout 
