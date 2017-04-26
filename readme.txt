@@ -6,6 +6,8 @@ $ pwd //显示当前目录
 /Users/michael/learngit
 git init //创建仓库
 
-git add  readme.txt //把 readme.txt文件添加到仓库
+git add  readme.txt // 把 readme.txt文件添加到仓库
  
 git commit -m '提交信息' //吧文件提交到仓库  -m 本次提交的说明
+
+git diff //比较差异
