@@ -29,3 +29,5 @@ git diff //比较差异
 git log//日志 --pretty=oneline
 
 git relog //记录你的每一次命令
+
+git checkout 
