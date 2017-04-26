@@ -19,9 +19,13 @@ git add -u   // 添加修改和删除，但是不包括新建文件
 git reset <file> // 撤销提交单独文件
 
 git reset        // unstage all due changes
- 
+
 git commit -m '提交信息' //吧文件提交到仓库  -m 本次提交的说明
 
 git status   //掌握当前仓库状态
 
 git diff //比较差异
+
+git log//日志 --pretty=oneline
+
+git relog //记录你的每一次命令
