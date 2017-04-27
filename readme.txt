@@ -33,3 +33,7 @@ git relog //记录你的每一次命令
 git reset HEAD //返回版本库
 
 git checkout 
+
+git checkout -b  'name'//创建分支并且迁出 
+
+git branch //查看当前分支
