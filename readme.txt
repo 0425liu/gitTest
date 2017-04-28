@@ -45,29 +45,11 @@ git push -u origin master //提交远程
 
 创建+切换分支：git checkout -b <name>
 
-合并某分支到当前分支：git merge <name>
-
-删除分支：git branch -d <name>
-
-
-用git log --graph  --pretty=oneline命令可以看到分支合并图。
-
-git merge --no-ff -m 'merge with no-ff' dev //使用dev分支合拼,禁止使用fast wforward
-
-git stash // 储藏空座区间
-
-git stash list
-
-git stash apply  git stash drop
-
-git stash pop
-
-git remote -v //远程信息
-
+git push origin master //推送分支
 git push origin master //推送分支
 
 
-
+git checkout -b dev origin/dev //拉出远程的DEV
 
 
 
