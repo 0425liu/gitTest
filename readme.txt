@@ -48,3 +48,5 @@ git push -u origin master //提交远程
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+
+新增s分支
