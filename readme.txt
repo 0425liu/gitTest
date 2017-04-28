@@ -54,3 +54,22 @@ git push -u origin master //提交远程
 
 git merge --no-ff -m 'merge with no-ff' dev //使用dev分支合拼,禁止使用fast wforward
 
+git stash // 储藏空座区间
+
+git stash list
+
+git stash apply  git stash drop
+
+git stash pop
+
+git remote -v //远程信息
+
+git push origin master //推送分支
+
+
+
+
+
+
+
+
