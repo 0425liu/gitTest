@@ -49,8 +49,8 @@ git push -u origin master //提交远程
 
 删除分支：git branch -d <name>
 
-<<<<<<< HEAD
-新增s分支
-=======
-新增分支
->>>>>>> add
+
+用git log --graph  --pretty=oneline命令可以看到分支合并图。
+
+git merge --no-ff -m 'merge with no-ff' dev //使用dev分支合拼,禁止使用fast wforward
+
