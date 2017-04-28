@@ -34,6 +34,17 @@ git reset HEAD //返回版本库
 
 git checkout 
 
-git checkout -b  'name'//创建分支并且迁出 
 
-git branch //查看当前分支
+git push -u origin master //提交远程
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
