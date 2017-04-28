@@ -49,4 +49,8 @@ git push -u origin master //提交远程
 
 删除分支：git branch -d <name>
 
+<<<<<<< HEAD
 新增s分支
+=======
+新增分支
+>>>>>>> add
